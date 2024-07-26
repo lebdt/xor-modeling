@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+
 # coding = utf-8
+
 
 import argparse
 import numpy as np
@@ -44,7 +47,7 @@ parser.add_argument(
     type=int,
     default=6000,
     metavar="máximo de iterações",
-    help="insira o número máximo de iterações. Default = 5000 - Argumento do tipo: int",
+    help="insira o número máximo de iterações. Default = 6000 - Argumento do tipo: int",
 )
 
 parser.add_argument(
